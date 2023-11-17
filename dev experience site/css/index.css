@@ -7,8 +7,8 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #1abc9c;
+  --bs-green: #9a77b3;;
+  --bs-teal: #9a77b3;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
@@ -23,9 +23,9 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
+  --bs-primary: #9a77b3;
   --bs-secondary: #2c3e50;
-  --bs-success: #198754;
+  --bs-success: #9a77b3;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
@@ -62,8 +62,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
-  --bs-link-hover-color: #15967d;
+  --bs-link-color: #9a77b3;
+  --bs-link-hover-color: #9a77b3;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -239,7 +239,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #9a77b3;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -573,15 +573,16 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #000;
 }
 .blockquote-footer::before {
   content: "— ";
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 20%;
   height: auto;
+
 }
 
 .img-thumbnail {
@@ -604,7 +605,7 @@ progress {
 
 .figure-caption {
   font-size: 0.875em;
-  color: #6c757d;
+  color: #000;
 }
 
 .container,
@@ -1263,6 +1264,7 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    text-align: justify;
   }
   .col-lg-5 {
     flex: 0 0 auto;
@@ -1728,7 +1730,6 @@ progress {
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
   --bs-table-active-color: var(--bs-body-color);
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: var(--bs-body-color);
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
@@ -2827,19 +2828,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1abc9c;
-  --bs-btn-border-color: #1abc9c;
+  --bs-btn-bg: #9a77b3;
+  --bs-btn-border-color: #9a77b3;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
-  --bs-btn-hover-border-color: #15967d;
+  --bs-btn-hover-bg: #9a77b3;
+  --bs-btn-hover-border-color: #9a77b3;
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #15967d;
-  --bs-btn-active-border-color: #148d75;
+  --bs-btn-active-bg: #9a77b3;
+  --bs-btn-active-border-color: #9a77b3;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #1abc9c;
-  --bs-btn-disabled-border-color: #1abc9c;
+  --bs-btn-disabled-bg: #9a77b3;
+  --bs-btn-disabled-border-color: #9a77b3;
 }
 
 .btn-secondary {
@@ -2864,8 +2865,8 @@ textarea.form-control-lg {
   --bs-btn-bg: #198754;
   --bs-btn-border-color: #198754;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #157347;
-  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-hover-bg: #9a77b3;
+  --bs-btn-hover-border-color: #9a77b3;
   --bs-btn-focus-shadow-rgb: 60, 153, 110;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #146c43;
@@ -2965,8 +2966,8 @@ textarea.form-control-lg {
   --bs-btn-color: #1abc9c;
   --bs-btn-border-color: #1abc9c;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1abc9c;
-  --bs-btn-hover-border-color: #1abc9c;
+  --bs-btn-hover-bg: #9a77b3;
+  --bs-btn-hover-border-color: #9a77b3;
   --bs-btn-focus-shadow-rgb: 26, 188, 156;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #1abc9c;
@@ -2999,8 +3000,8 @@ textarea.form-control-lg {
   --bs-btn-color: #198754;
   --bs-btn-border-color: #198754;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #198754;
-  --bs-btn-hover-border-color: #198754;
+  --bs-btn-hover-bg: #9a77b3;
+  --bs-btn-hover-border-color: #9a77b3;
   --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #198754;
@@ -4359,7 +4360,7 @@ textarea.form-control-lg {
 }
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
-  background-color: var(--bs-accordion-active-bg);
+  background-color: #9a77b3;
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 .accordion-button:not(.collapsed)::after {
@@ -8108,12 +8109,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color:  #4e4395 !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #000 !important;
 }
 
 .bg-success {
@@ -10813,6 +10814,7 @@ html {
 
 .page-section {
   padding: 6rem 0;
+  display: flex;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10888,13 +10890,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #4e4395;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #9a77b3;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10916,11 +10918,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #9a77b3;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #9a77b3;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10990,7 +10992,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #9a77b3;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11018,10 +11020,10 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #000;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #4e4395;
 }
